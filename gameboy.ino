@@ -2,9 +2,9 @@
 #include "pokemon.h"
 #include "output.h"
 
-#define MOSI_ 22
-#define MISO_ 23
-#define SCLK_ 24
+#define MOSI_ 3
+#define MISO_ 4
+#define SCLK_ 2
 
 int bytes = 0;
 uint8_t shift = 0;
